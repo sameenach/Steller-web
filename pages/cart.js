@@ -1,7 +1,7 @@
 
 import { useContext } from "react";
 import Link from "next/link";
-import { CartContext } from "../pages/context/CartContext";
+import { CartContext } from "../context/CartContext";
 
 export default function Cart() {
     const { cart, removeFromCart } = useContext(CartContext);

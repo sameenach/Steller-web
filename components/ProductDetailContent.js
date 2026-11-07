@@ -1,7 +1,7 @@
 
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { CartContext } from "../pages/context/CartContext";
+import { CartContext } from "../context/CartContext";
 import { getProductById } from "../services/ProductService";
 
 export default function ProductDetailContent() {

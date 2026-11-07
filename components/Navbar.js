@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useContext } from "react";
 import { useRouter } from "next/router";
- import { CartContext } from "../pages/context/CartContext";
+ import { CartContext } from "../context/CartContext";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);

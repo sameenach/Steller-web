@@ -3,7 +3,7 @@ import "../styles/global.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { CartProvider } from "../pages/context/CartContext";
+import { CartProvider } from "../context/CartContext";
 
 export default function MyApp({ Component, pageProps }) {
   return (
